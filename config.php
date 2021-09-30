@@ -5,7 +5,7 @@ $site = '10.1.11.233/telefones/';
 //nome do banco de dados
 $nome_banco = "agenda";
 
-$con = mysqli_connect("127.0.0.1","admin","efetreze",$nome_banco);
+$con = mysqli_connect("127.0.0.1","admin","",$nome_banco);
 // Check connection
 if (mysqli_connect_errno())
   {
