@@ -26,7 +26,7 @@ $logado = $_SESSION['user'];
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Agenda Telefônica</title>
+  <title>Agenda de Contatos</title>
 
   <!-- Bootstrap core CSS -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -51,7 +51,7 @@ include "config.php";
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Agenda APS</a>
+        <a class="navbar-brand" href="#">Agenda de Contatos</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">

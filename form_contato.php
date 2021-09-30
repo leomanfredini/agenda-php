@@ -26,26 +26,33 @@
       <input type="text" list="outro" name="outro" autocomplete="on" placeholder="">
       <datalist id="outro">
         <option value="Gestao">
-          <option value="Financas">
-            <option value="Gabinete">
-              <option value="Saude">
-                <option value="Educacao">
-                </datalist>  
-              </div>
-              <div class="form-group">
-                <input type="text" list="grupo" name="grupo" autocomplete="on" placeholder="Estado">
-                <datalist id="grupo">
-                  <option value="Alagoas">
-                    <option value="Bahia">
-                      <option value="Pernambuco">
-                        <option value="Sergipe">
-                        </datalist>  
-                      </div>
+        <option value="Financas">
+        <option value="Gabinete">
+        <option value="Saude">
+        <option value="Educacao">
+      </datalist>  
+    </div>
+    
+<!-- 	<div class="form-group">
+	  <label>Secretaria </label>
+	  <input type="text" list="grupo" name="grupo" autocomplete="on" placeholder="Estado">
+	  <datalist id="grupo">
+		<option value="Alagoas">
+		<option value="Bahia">
+		<option value="Pernambuco">
+		<option value="Sergipe">
+	  </datalist>
+	</div> -->
+	
+	<div class="form-group">
+      <label>Setor</label>
+      <input type="text" class="form-control grupo" name="grupo" placeholder="Setor">
+    </div>
                       
                       
                       
-                      <button type="submit" class="btn btn-primary">Cadastrar</button>
-                      <button type="reset" class="btn btn-primary">Limpar</button>
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+    <button type="reset" class="btn btn-primary">Limpar</button>
 
-                    </form>
-                  </div>
+   </form>
+</div>
